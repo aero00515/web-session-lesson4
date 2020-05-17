@@ -1,7 +1,6 @@
-# Lesson 3 - Cache War
+# Lesson 4 - Auth
 
-Show cache's magic.  
-With advanced promise reuse skill.
+Add auth middle into hello server
 
 # For VSCode User
 
