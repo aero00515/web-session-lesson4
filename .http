@@ -1,0 +1,37 @@
+GET http://localhost:3000/
+
+###
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+  "userId": 1,
+  "password": "test"
+}
+
+###
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+  "userId": 1,
+  "password": "test"
+}
+
+###
+GET http://localhost:3000/getHello/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTU4OTg0ODU4OCwiZXhwIjoxNTg5ODUyMTg4fQ.ooisp0c3D9ZGHeUDD3aTX_NRxPxQpHXn70ytzleCwCs
+Content-Type: application/json
+X-REQUSET-ID: cache-test
+
+###
+GET http://localhost:3000/getHello/advanced/123
+Content-Type: application/json
+
+###
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+  "test": "message"
+}

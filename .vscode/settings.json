@@ -1,0 +1,5 @@
+{
+  "prettier.trailingComma": "all",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2
+}
